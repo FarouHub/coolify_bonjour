@@ -22,7 +22,7 @@ try {
 
     $sql = "SELECT * FROM users";
 
-    echo 'Connected to the database';
+    echo 'Connected to the database' . "\n";
     // print the list of user
     $stmt = $pdo->query($sql);
     while ($row = $stmt->fetch()) {
