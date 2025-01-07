@@ -1,6 +1,5 @@
 <?php
 
-// add develop branch just un test
 // get DATABASE_URL
 $DATABASE_URL = $_ENV['DATABASE_URL'];
 
