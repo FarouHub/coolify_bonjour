@@ -12,7 +12,7 @@ $db = ltrim($DATABASE_URL['path'], '/');
 $user = $DATABASE_URL['user'];
 $pass = $DATABASE_URL['pass'];
 
-$dsn = "mariadb:host=$host;dbname=$db";
+$dsn = "mysql:host=$host;dbname=$db";
 
 
 try {
